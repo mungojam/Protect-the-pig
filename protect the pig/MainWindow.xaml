@@ -1,0 +1,16 @@
+﻿<Window x:Class="protect_the_pig.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:protect_the_pig"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF1D23A2">
+        <Image Margin="275.973,147.254,292.549,146.94" Source="Image1.png" Stretch="Fill"/>
+        <Button GotMouseCapture= "Button1_OnClick" x:Name="button1" Content= "" HorizontalAlignment="Left" Margin="81.469,98.629,0,0" VerticalAlignment="Top" Width="22.483"/>
+        <Label Content="SCORE" HorizontalAlignment="Left" Margin="650.92,18.01,0,0" VerticalAlignment="Top" Width="44.285" Foreground="#FFF9EE00"/>
+        <Label x:Name="scorelabel" Content="0" HorizontalAlignment="Left" Margin="716.829,18.01,0,0" VerticalAlignment="Top" Background="#FFF9EE00"/>
+
+    </Grid>
+</Window>
